@@ -26,4 +26,5 @@ export default function App() {
     </Routes></main>
     <footer>Alzikrayat · Photo Sharing Application · Project 4</footer>
   </>;
+  
 }
