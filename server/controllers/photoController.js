@@ -35,6 +35,7 @@ export async function deletePhoto(req, res) {
   if (photo.userId.toString() !== req.user._id.toString()) {
     return res.status(403).json({ message: "Only the photo owner can delete it." });
   }
+  
   const filePath = path.resolve("uploads", photo.fileName);
   if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
   await Comment.deleteMany({ photoId: photo._id });
