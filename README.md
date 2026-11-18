@@ -3,7 +3,7 @@
 Advanced Web Technologies – Optional Bonus Project  
 Selected Track: **Track A – JWT-Based Authentication**
 ## Prepared by the student:
- Mustafa Al-Tayeb Al-Haj Dawalbait
+ Mustafa Al-Tayeb Al-Haj Dawalbayt
  University ID: 202011236916
 ## Features
 - Register and login with bcrypt password hashing.
